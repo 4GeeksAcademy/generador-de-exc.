@@ -21,8 +21,4 @@ const randomNumber = arr => {
   return Math.floor(Math.random() * arr.length)
 }
 
-console.log(randomNumber(who))
-console.log(randomNumber(action))
-console.log(randomNumber(what))
-console.log(randomNumber(when))
-console.log(randomNumber(feeling))
+console.log(who[randomNumber(who)], action[randomNumber(action)],what[randomNumber(what)],(when[randomNumber(when)],feeling[randomNumber(feeling)]));
